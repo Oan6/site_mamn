@@ -1,0 +1,144 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  margin-block: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background: rgb(219, 188, 219);
+}
+header li:not(:hover) {
+  color: red;
+}
+header nav {
+  position: relative;
+}
+header nav ul {
+  text-transform: uppercase;
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(194, 194, 223);
+}
+header nav ul a {
+  color: black;
+  text-decoration: none;
+}
+header nav li {
+  position: relative;
+  padding: 30px 40px;
+  cursor: pointer;
+}
+header .head {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  min-height: 92vh;
+}
+header .head h1 {
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+header .head p {
+  font-weight: 100;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.bio {
+  max-width: 1100px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px 0;
+  border: 2px dashed rgb(219, 188, 219);
+}
+.bio h2 {
+  padding: 50px 0;
+  text-transform: uppercase;
+}
+.bio p {
+  letter-spacing: 1px;
+  line-height: 30px;
+  padding-bottom: 25px;
+}
+
+.localisation {
+  max-width: 1250px;
+  margin: 50px auto;
+  background: url(./img/Capture\ d’écran\ 2023-04-19\ à\ 14.20.21.png) center;
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(219, 188, 219);
+  padding: 50px 0;
+}
+footer h2 {
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+footer ul {
+  display: flex;
+  min-width: 700px;
+  justify-content: center;
+}
+
+.forme {
+  padding: 50px 0;
+  align-items: center;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+.forme form {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+.forme form input {
+  margin-top: 20px;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid grey;
+  font-size: 1.5em;
+}
+.forme #butt {
+  padding: 2% 4%;
+  background: black;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+  letter-spacing: 4px;
+  font-weight: 700;
+  transition: 0.2s;
+}
+.forme #butt:hover {
+  transform: translateX(3px);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.433);
+}/*# sourceMappingURL=style.css.map */
